@@ -1,0 +1,32 @@
+USE digilog_n;
+
+CREATE TABLE phm08_live(
+	unit int,
+	cycle int,
+        ct_timestamp double,
+	op1 float,
+	op2 float,
+	op3 float,
+	sensor01 float,
+	sensor02 float,
+	sensor03 float,
+	sensor04 float,
+	sensor05 float,
+	sensor06 float,
+	sensor07 float,
+	sensor08 float,
+	sensor09 float,
+	sensor10 float,
+	sensor11 float,
+	sensor12 float,
+	sensor13 float,
+	sensor14 float,
+	sensor15 float,
+	sensor16 float,
+	sensor17 float,
+	sensor18 float,
+	sensor19 float,
+	sensor20 float,
+	sensor21 float,
+	primary key ((unit), cycle)
+); 
